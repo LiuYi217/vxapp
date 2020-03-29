@@ -6,3 +6,5 @@ venv
 /.idea/
 */__pycache__
 /__pycache__/*
+parent_folder/__pycache__
+__pycache__
