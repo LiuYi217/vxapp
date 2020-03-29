@@ -8,11 +8,12 @@ IDE:PyCharm
 """
 from application import app, manager
 from flask_script import Server
+import www
 
 # web server
 manager.add_command("runserver",
                     Server(host='0.0.0.0', port=app.config['SERVER_PORT'],
-                           use_debugger=True, use_reloader=True))
+                           use_debugger=app.config['DEBUG'], use_reloader=True))
 
 
 def main():
