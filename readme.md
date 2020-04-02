@@ -14,9 +14,9 @@ ProjectName and Description
     <img src="web/static/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">"完美的"README模板</h3>
+  <h3 align="center">README</h3>
   <p align="center">
-    一个"完美的"README模板去快速开始你的项目！
+    去快速开始项目！
     <br />
     <a href="https://github.com/shaojintian/Best_README_template"><strong>探索本项目的文档 »</strong></a>
     <br />
@@ -31,7 +31,6 @@ ProjectName and Description
 </p>
 
 
- 本篇README.md面向开发者
  
 ## 目录
 
@@ -63,9 +62,12 @@ ProjectName and Description
 
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
-
 ```sh
 git clone https://github.com/shaojintian/Best_README_template.git
+```
+###### **启动命令**
+```sh
+python manager.py runserver
 ```
 
 ### 文件目录说明
@@ -136,9 +138,9 @@ filetree
 
 ### 作者
 
-xxx@xxxx
+liuyiab@chanjet.com
 
-知乎:xxxx  &ensp; qq:xxxxxx    
+知乎:xxxx  &ensp; qq:380726354   
 
  *您也可以在贡献者名单中参看所有参与该项目的开发者。*
 
